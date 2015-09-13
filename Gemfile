@@ -39,6 +39,8 @@ group :development, :test do
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+  gem 'selenium-webdriver'
+  gem 'annotate'
 end
 
 group :development do
@@ -54,3 +56,5 @@ group :development do
   gem 'guard-cucumber'
 end
 
+gem 'bootstrap-sass'
+gem 'simple_form'

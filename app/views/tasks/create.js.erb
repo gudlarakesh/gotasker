@@ -1,0 +1,6 @@
+<% if @save_success %>
+$('#task-flash').html('');
+  $('#tasks').append('<%= j render(@task) %>');
+<% else %>
+  $('#task-flash').html('Please try again');
+<% end %>
